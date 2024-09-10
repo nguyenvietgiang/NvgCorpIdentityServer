@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{CC33F428-C901-41A1-B834-CBF5B1DDD002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7AFC30C6-08BF-45C9-9159-00D35E1652AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3656A79B-6468-4E60-96C1-D93BCC1AAEE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{9DE73864-B08B-44EF-8BF8-5BD2F7B5D33C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NvgCorpIdentityServer", "NvgCorpIdentityServer\NvgCorpIdentityServer.csproj", "{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DE73864-B08B-44EF-8BF8-5BD2F7B5D33C} = {7AFC30C6-08BF-45C9-9159-00D35E1652AA}
+		{7D5F88CB-554B-4B08-BA3E-FFE060BB27B2} = {9DE73864-B08B-44EF-8BF8-5BD2F7B5D33C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED7F89EE-6CBF-4369-A650-D81376194ED2}
+	EndGlobalSection
+EndGlobal
